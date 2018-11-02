@@ -9,14 +9,14 @@ package business;
 public class Student {
     int studentId;
     String studentName;
-    String batch;
+ 
 
     public Student() {
     }
-    public Student(int studentId, String studentName, String batch) {
+    public Student(int studentId, String studentName, ) {
         this.studentId = studentId;
         this.studentName = studentName;
-        this.batch = batch;
+       ;
     }
 
     public int getStudentId() {
@@ -35,12 +35,5 @@ public class Student {
         this.studentName = studentName;
     }
 
-    public String getBatch() {
-        return batch;
-    }
-
-    public void setBatch(String batch) {
-        this.batch = batch;
-    }
     
 }
